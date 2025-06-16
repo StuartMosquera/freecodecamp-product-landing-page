@@ -1,3 +1,4 @@
+/* Reset styles */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -24,6 +25,7 @@ img {
   max-width: 100%;
 }
 
+/* Global variables */
 :root {
   --btn-bg: #fad42d;
   --btn-hover-bg: #f79d16;
@@ -34,6 +36,7 @@ img {
   --section-bg: #d1d0cf;
 }
 
+/* Global styles */
 body {
   background-color: var(--main-bg);
   color: var(--primary-color);
@@ -55,6 +58,7 @@ label {
   margin-top: 4.688rem;
 }
 
+/* Header styles */
 #header {
   align-items: center;
   background-color: var(--main-bg);
@@ -94,6 +98,7 @@ label {
   text-decoration: none;
 }
 
+/* Main Content styles */
 main {
   margin: 4.5rem auto;
   max-width: 1024px;
@@ -142,7 +147,8 @@ main {
   cursor: pointer;
 }
 
-#feature-section {
+/* Features Section styles */
+#features-section {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -167,6 +173,7 @@ main {
   font-size: 1.4em;
 }
 
+/* Video Section styles */
 #video-section {
   display: flex;
   justify-content: center;
@@ -177,6 +184,7 @@ main {
   max-width: 560px;
 }
 
+/* Pricing Section styles */
 #pricing-section {
   align-items: center;
   display: flex;
@@ -235,6 +243,7 @@ main {
   cursor: pointer;
 }
 
+/* Footer styles */
 footer { 
   align-items: end;
   background-color: var(--section-bg);
@@ -261,11 +270,13 @@ footer p:first-of-type {
   opacity: 0.5;
 }
 
+/* Responsive styles */
 @media screen and (max-width: 768px) {
   .container {
     margin-top: 9.649rem;
   }
 
+  /* Header styles */
   #header {
     flex-flow: column nowrap;
     justify-content: center;
@@ -278,6 +289,7 @@ footer p:first-of-type {
     text-align: center;
   }
 
+  /* Feature Section styles */
   .feature-div .img-div {
     display: none;
   }
