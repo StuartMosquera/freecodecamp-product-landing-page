@@ -42,6 +42,15 @@ body {
   line-height: 1.5;
 }
 
+section {
+  margin-bottom: 4.5rem;
+  margin-top: 4.5rem;
+}
+
+label {
+  width: 100%;
+}
+
 .container {
   margin-top: 4.688rem;
 }
@@ -88,7 +97,8 @@ body {
 main {
   margin: 4.5rem auto;
   max-width: 1024px;
-  padding: 0 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #form {
@@ -104,10 +114,6 @@ main {
   text-align: center;
 }
 
-#form label {
-  width: 100%;
-}
-
 .form-control {
   display: block;
   font-size: 0.95em;
@@ -121,12 +127,11 @@ main {
   background-color: var(--btn-bg);
   border: none;
   border-radius: 3px;
-  font-weight: 600;
+  font-weight: 700;
   max-width: 150px;
   padding-bottom: 0.2rem;
   padding-top: 0.2rem;
-  text-transform: uppercase;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
   transition-property: background-color;
   transition-timing-function: ease-in;
   width: 100%;
@@ -135,11 +140,6 @@ main {
 #submit:hover {
   background-color: var(--btn-hover-bg);
   cursor: pointer;
-}
-
-section {
-  margin-bottom: 4.5rem;
-  margin-top: 4.5rem;
 }
 
 #feature-section {
@@ -159,12 +159,11 @@ section {
 }
 
 .feature-div .img-div {
-  display: initial;
   flex: none;
   height: auto;
 }
 
-.feature-div article h2 {
+.feature-div h2 {
   font-size: 1.4em;
 }
 
@@ -194,7 +193,7 @@ section {
   text-align: center;
 }
 
-#pricing-section article h3 {
+#pricing-section h3 {
   background-color: var(--section-bg);
   font-size: 1.1em;
   margin-bottom: 1rem;
@@ -202,13 +201,13 @@ section {
   padding-top: 0.938rem;
 }
 
-#pricing-section article p {
+#pricing-section p {
   font-size: 1.5em;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
-#pricing-section article ul {
+#pricing-section ul {
   font-size: 0.96em;
   line-height: 1.8;
   list-style-type: none;
@@ -216,7 +215,7 @@ section {
   margin-top: 1rem;
 }
 
-#pricing-section article button {
+#pricing-section button {
   background-color: var(--btn-bg);
   border: none;
   border-radius: 2.5px;
@@ -225,14 +224,13 @@ section {
   max-width: 100px;
   padding-bottom: 0.625rem;
   padding-top: 0.625rem;
-  text-transform: uppercase;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
   transition-property: background-color;
   transition-timing-function: ease-in;
   width: 100%;
 }
 
-#pricing-section article button:hover {
+#pricing-section button:hover {
   background-color: var(--btn-hover-bg);
   cursor: pointer;
 }
